@@ -11,7 +11,7 @@
 | node.js |  8.11.1 |
 
 # Setup
-    1. create folder train_log and movies at root folder 
+    1. Ensure folder train_log and movies exists at root folder 
     2. In Terminal: path to web folder and npm install 
 
 

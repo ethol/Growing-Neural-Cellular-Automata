@@ -15,7 +15,7 @@ import common
 from google.protobuf.json_format import MessageToDict
 from tensorflow.python.framework import convert_to_constants
 
-url = 'C:/Users/tomglove_b/Documents/GitHub/playground/input/corona2.png'
+url = 'input/corona2.png'
 
 class SamplePool:
     def __init__(self, *, _parent=None, _parent_idx=None, **slots):

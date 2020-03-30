@@ -127,6 +127,7 @@ dmypy.json
 
 # Project
 train_log/
+train_log/checkpoint
 movies/
 .idea/
 web/node_modules/
