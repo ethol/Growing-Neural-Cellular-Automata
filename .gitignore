@@ -129,4 +129,5 @@ dmypy.json
 train_log/
 movies/
 .idea/
+web/node_modules/
 
