@@ -128,5 +128,5 @@ dmypy.json
 # Project
 train_log/
 movies/
-.idea/vcs.xml
-.idea/workspace.xml
+.idea/
+
