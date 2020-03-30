@@ -1,5 +1,7 @@
 import { createCA } from './ca.js'
 
+var emojiList = ["me", "trump", "corona"];
+
 function isInViewport(element) {
   var rect = element.getBoundingClientRect();
   var html = document.documentElement;
@@ -43,7 +45,7 @@ export function createDemo(divId) {
     }
 
     function initUI() {
-      for (let c of ["me", "trump", "corona"]) {
+      for (let c of emojiList) {
         const div = document.createElement('div');
         div.id = c;
         div.style.backgroundImage = `url('images/${c}.png')`;

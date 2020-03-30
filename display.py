@@ -12,7 +12,7 @@ EMOJI = ['me', "trump", "corona"]
 # EMOJI = '🦎😀💥👁🐠🦋🐞🕸🥨🎄'
 # EMOJI = '🦎'
 
-def get_model(emoji='me', fire_rate=0.5, use_pool=1, damage_n=3, run=0,
+def get_model(emoji='me', fire_rate=0.5, use_pool=1, damage_n=3,
               prefix='models_example/', output='model'):
     path = prefix
     assert fire_rate in [0.5, 1.0]
@@ -21,7 +21,7 @@ def get_model(emoji='me', fire_rate=0.5, use_pool=1, damage_n=3, run=0,
     elif fire_rate == 1.0:
         path += 'fire_rate_1.0 '
     code = emoji.upper()
-    path += 'target_%s run_index_%d/8000' % (code, run)
+    path += 'target_%s/8000' % code
     assert output in ['model', 'json']
     print(path)
     if output == 'model':
