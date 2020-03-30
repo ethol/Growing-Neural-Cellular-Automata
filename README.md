@@ -19,19 +19,19 @@
     * png with RGBA format should work 
 2. Edit GrowCa.py url variable to point to file.
 3. Change EXPERIMENT_TYPE to reflect intended experiment type
-4. run GrowCa.py
-5. (Optional) run showResultsGrowCa.py to create movie files. 
+4. Run growCa.py
+5. (Optional) Run showResultsGrowCa.py to create movie files. 
 6. Create the 3 folders in modules_example
     * use_sample_pool_0 damage_n_0 is growing
     * use_sample_pool_1 damage_n_0 is persistence
     * use_sample_pool_1 damage_n_3 is regeneration
-    * drag the 4 files with filename 8000 from train_log into folders 
-    * all 3 folders need to exists and contain the files so, if you've just run one experiment copy the files into the folders
+    * Drag the 4 files with filename 8000 from train_log into folders 
+    * All 3 folders need to exists and contain the files so, if you've just run one experiment copy the files into the folders
 7. Modify or add to the EMOJI list in display.py
-8. run display.py
-9. open zip and drag files into web/webgl_models8
-10. edit emojiList in demo.js and copy target image file into web/images
-11. terminal: path to web folder and "npm run" 
+8. Run display.py
+9. Open zip and drag files into web/webgl_models8
+10. Edit emojiList in demo.js and copy target image file into web/images
+11. Terminal: Path to web folder and "npm run" 
     
 
 
