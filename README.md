@@ -29,7 +29,7 @@
     * All 3 folders need to exists and contain the files so, if you've just run one experiment copy the files into the folders
 7. Modify or add to the EMOJI list in display.py
 8. Run display.py
-9. Open zip and drag files into web/webgl_models8
+9. Open webgl_models8.zip and drag files into web/webgl_models8
 10. Edit emojiList in demo.js and copy target image file into web/images
 11. Terminal: Path to web folder and "npm run" 
     
